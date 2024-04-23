@@ -148,17 +148,17 @@ h2.section span{
 }
 
 .podcast1{
-    background-image: url("/images/podcast1.png");
+    background-image: url("../images/podcast1.png");
     background-size: cover;
 }
 
 .podcast2{
-    background-image: url("/images/podcast2.png");
+    background-image: url("../images/podcast2.png");
     background-size: cover;
 }
 
 .podcast3{
-    background-image: url("/images/podcast3.png");
+    background-image: url("../images/podcast3.png");
     background-size: cover;
 }
 
