@@ -16,8 +16,15 @@ html, body{
     margin: 0;
     padding: 0;
     font-family: sansbook, sans-serif;
-    background-color: #302e2a;
+    background-color: #33322E;
+    background-color: #33322E;
     color: #ffffff;
+    min-height: 100%;
+}
+
+.container{
+    margin: 0 auto;
+    max-width: 1240px;
 }
 
 a.logo{
@@ -31,17 +38,28 @@ a.logo img{
 
 p{
     font-size: 19px;
-    line-height: 1.25;
+    line-height: 1.45;
 }
 
 .portada{
-    background-color: #222221;
-    padding: 100px 10px;
-    padding-top: 20px;
+    position: relative;
+    height: 105vh;
+    background-image: url("../images/cover.png");
+    background-size: cover;
+    background-position: bottom;
+}
+
+
+.portada img{
+    width: 100%;
+}
+
+.portada .cover{
+    padding: 20px 0px;
 }
 
 .portada h1{
-    font-size: 70px;
+    font-size: 90px;
     font-weight: normal;
     font-family: serifbook;
     line-height: 1;
@@ -49,76 +67,93 @@ p{
     margin-bottom: 80px;
 }
 
-h2.section{
-    color: #9ddb87;
-    font-weight: normal;
-    text-transform: uppercase;
-    font-size: 26px;
-    letter-spacing: 1px;
+.bajada{
+    padding: 40px 0px;
+    margin: 0 auto;
+    max-width: 1000px;
+    text-align: center;
 }
 
-h2.section span{
-    font-size: 15px;
-    display: block;
+.bajada p{
+    font-size: 23px;
+    line-height: 1.4;
+}
+
+p.autor{
+    font-size: 14px;
+    color: #aaaaaa;
+}
+
+p.autor span{
     color: #ffffff;
 }
 
-.container{
-    margin: 0 auto;
-    max-width: 1240px;
+.podcasts{
+    padding: 30px 0px;
+    border-bottom: 1px solid #555555;
+    border-top: 1px solid #555555;
 }
 
-.bajada{
-    max-width: 550px;
+.podcasts p{
+    font-size: 14px;
+    color: #888888;
 }
 
 .reportaje{
-    margin-bottom: 100px;
-    padding-top: 70px;
 }
 
 .reportaje img{
     width: 100%;
     margin-top: 20px;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.reportaje img.medium-img{
+    max-width: 650px;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .reportaje h2{
     font-size: 60px;
-    text-transform: none;
-    font-family: serifbook;
-    margin: 0 auto;
-    margin-bottom: 70px;
-    max-width: 700px;
-}
-
-.reportaje h2 span{
-    color: #9ddb87;
     font-weight: normal;
-    text-transform: uppercase;
-    font-size: 20px;
-    font-family: sansbook;
-    display: block; 
-    position: relative;
-    top: 10px;
-    letter-spacing: 2px;
+    margin: 80px auto;
+    margin-bottom: 80px;
+    margin-top: 120px;
+    max-width: 700px;
+    line-height: 1.0;
+    font-family: serifbook;
+    letter-spacing: 0.5px;
+    border-top: 1px solid #555555;
+    padding-top: 10px;
+    text-align: center;
 }
 
 .parrafo{
     max-width: 700px;
-    margin: 40px auto;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+.parrafo b{
+    font-weight: 400;
+    color: #e76c33;
+    border-bottom: 1px solid #e76c33;
 }
 
 .quote{
-    max-width: 400px;
-    float: left;
+    max-width: 315px;
+    float: right;
     font-size: 25px;
-    border-top: 1px solid #e46c5b;
-    padding-top: 10px;
-    color: #e46c5b;
-    margin-right: 50px;
-    text-align: right;
-    margin-top: 5px;
+    border-top: 1px solid #e76c33;
+    padding-top: 20px;
+    color: #e76c33;
+    margin-left: 40px;
+    margin-top: 25px;
     margin-bottom: 30px;
+    line-height: 1.2;
 }
 
 .fotodesc{
@@ -128,74 +163,18 @@ h2.section span{
     margin-top: 7px;
     color: #aaaaaa;
     text-align: center;
+    margin-bottom: 55px;
 }
 
 .parrafo span.capitalize{
-    font-size: 87px;
+    font-size: 95px;
     font-family: serifbook;
     float: left;
-    margin-top: -30px;
-    margin-bottom: -10px;
-    margin-right: 5px;
+    margin-top: -40px;
+    margin-bottom: -30px;
+    margin-right: 13px;
 }
 
-.podcast{
-    padding: 100px 30px;
-    position: relative;
-    border: 1px solid #666666;
-    border-radius: 10px;
-    margin-bottom: 30px;
-}
-
-.podcast1{
-    background-image: url("../images/podcast1.png");
-    background-size: cover;
-}
-
-.podcast2{
-    background-image: url("../images/podcast2.png");
-    background-size: cover;
-}
-
-.podcast3{
-    background-image: url("../images/podcast3.png");
-    background-size: cover;
-}
-
-.capitulo{
-    max-width: 500px;
-}
-
-.capitulo-titulo{
-    font-family: serifbook;
-    position: absolute;
-    top: 70px;
-    right: 30px;
-    text-align: right;
-}
-
-.capitulo-titulo h3{
-    margin: 0px;
-    font-size: 60px;
-    font-weight: normal;
-}
-
-.capitulo-titulo h4{
-    display: block;
-    font-family: sansbook;
-    font-size: 15px;
-    margin: 0;
-    font-weight: normal;
-    position: relative;
-    top: 0px;
-}
-
-.capitulo-titulo p{
-    margin-top: 30px;
-    font-size: 15px;
-    font-family: sansbook;
-    max-width: 450px;
-}
 
 .footer{
     padding: 20px 0px;
