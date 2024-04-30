@@ -8,6 +8,11 @@
     src: url(fonts/Plomb.woff);
 }
 
+@font-face {
+    font-family: titlebook;
+    src: url(fonts/booktitle.woff2);
+}
+
 *{
     box-sizing: border-box;
 }
@@ -59,9 +64,10 @@ p{
 }
 
 .portada h1{
-    font-size: 90px;
+    font-size: 70px;
     font-weight: normal;
     font-family: serifbook;
+    font-family: titlebook;
     line-height: 1;
     margin-top: 30px;
     margin-bottom: 80px;
@@ -117,18 +123,16 @@ p.autor span{
 }
 
 .reportaje h2{
-    font-size: 60px;
+    font-size: 45px;
     font-weight: normal;
     margin: 80px auto;
-    margin-bottom: 80px;
-    margin-top: 120px;
+    margin-bottom: 70px;
+    margin-top: 70px;
     max-width: 700px;
     line-height: 1.0;
-    font-family: serifbook;
-    letter-spacing: 0.5px;
-    border-top: 1px solid #555555;
-    padding-top: 10px;
-    text-align: center;
+    font-family: titlebook;
+    border-top: 1px solid #636060;
+    padding-top: 16px;
 }
 
 .parrafo{
@@ -167,10 +171,10 @@ p.autor span{
 }
 
 .parrafo span.capitalize{
-    font-size: 95px;
-    font-family: serifbook;
+    font-size: 94px;
+    font-family: titlebook;
     float: left;
-    margin-top: -40px;
+    margin-top: -33px;
     margin-bottom: -30px;
     margin-right: 13px;
 }
