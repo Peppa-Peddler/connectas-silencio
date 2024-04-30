@@ -30,6 +30,7 @@ html, body{
 .container{
     margin: 0 auto;
     max-width: 1240px;
+    padding: 0 10px;
 }
 
 a.logo{
@@ -54,7 +55,6 @@ p{
     background-position: bottom;
 }
 
-
 .portada img{
     width: 100%;
 }
@@ -71,6 +71,12 @@ p{
     line-height: 1;
     margin-top: 30px;
     margin-bottom: 80px;
+}
+
+@media (max-width: 750px) {
+    .portada h1{
+        font-size: 50px;
+    }
 }
 
 .bajada{
