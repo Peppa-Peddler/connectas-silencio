@@ -76,13 +76,14 @@ p{
 .bajada{
     padding: 40px 0px;
     margin: 0 auto;
-    max-width: 1000px;
+    max-width: 700px;
     text-align: center;
+    text-align: left;
 }
 
 .bajada p{
     font-size: 23px;
-    line-height: 1.4;
+    line-height: 1.2;
 }
 
 p.autor{
@@ -131,8 +132,13 @@ p.autor span{
     max-width: 700px;
     line-height: 1.0;
     font-family: titlebook;
-    border-top: 1px solid #636060;
     padding-top: 16px;
+}
+
+.reportaje h2 span{
+    display: block;
+    width: 50px;
+    border-top: 3px solid #636060;
 }
 
 .parrafo{
@@ -150,7 +156,7 @@ p.autor span{
 .quote{
     max-width: 315px;
     float: right;
-    font-size: 25px;
+    font-size: 23px;
     border-top: 1px solid #e76c33;
     padding-top: 20px;
     color: #e76c33;
