@@ -124,7 +124,7 @@ p.autor span{
 }
 
 .reportaje h2{
-    font-size: 45px;
+    font-size: 38px;
     font-weight: normal;
     margin: 80px auto;
     margin-bottom: 70px;
@@ -132,19 +132,19 @@ p.autor span{
     max-width: 700px;
     line-height: 1.0;
     font-family: titlebook;
-    padding-top: 16px;
 }
 
 .reportaje h2 span{
     display: block;
     width: 50px;
     border-top: 3px solid #636060;
+    margin-bottom: 15px;
 }
 
 .parrafo{
     max-width: 700px;
     margin: 0 auto;
-    margin-bottom: 40px;
+    margin-bottom: 25px;
 }
 
 .parrafo b{
@@ -182,12 +182,17 @@ p.autor span{
     float: left;
     margin-top: -33px;
     margin-bottom: -30px;
-    margin-right: 13px;
+    margin-right: 10px;
 }
 
+.parrafo span.capitalize span{
+    font-size: 40px;
+    position: relative;
+    top: -38px
+}
 
 .footer{
-    padding: 20px 0px;
+    padding: 120px 0px;
     margin-top: 100px;
-    border-top: 1px solid #666666;
+    background: #1b1b1a;
 }
