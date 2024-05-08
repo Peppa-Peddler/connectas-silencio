@@ -33,9 +33,21 @@ html, body{
     padding: 0 20px;
 }
 
+.menu{
+    margin-top: 10px;
+}
+
 a.logo{
-    width: 150px;
+    width: 160px;
     display: inline-block;
+    vertical-align: middle;
+    margin-right: 30px;
+}
+
+a.ojologo{
+    position: relative;
+    top: 3px;
+    width: 170px;
 }
 
 a.logo img{
@@ -51,51 +63,98 @@ p{
     p{
         font-size: 16px;
     }
+
+    a.logo{
+        width: 100px;
+        margin-right: 10px;
+    }
+
+}
+
+.cover{
+    height: 105vh;
+    position: relative;
+    padding-top: 1px;
 }
 
 .portada{
-    position: relative;
+    position: absolute;
+    top: 0;
+    left: 0;
     height: 105vh;
+    width: 100%;
     background-image: url("../images/cover.png");
     background-size: cover;
     background-position: bottom;
+}
+
+@media (max-width: 750px) {
+    .portada{
+        height: 230px;
+        position: static;
+    }
+    .cover{
+        height: auto;
+    }
 }
 
 .portada img{
     width: 100%;
 }
 
-.portada .cover{
-    padding: 20px 0px;
-}
-
-.portada h1{
-    font-size: 60px;
-    font-weight: normal;
-    font-family: serifbook;
-    font-family: titlebook;
-    line-height: 1;
-    margin-top: 30px;
-    margin-bottom: 80px;
+.title{
+    margin-top: 120px;
+    position: relative;
 }
 
 @media (max-width: 750px) {
-    .portada h1{
-        font-size: 50px;
+    .title{
+        margin-top: 10px;
+    }
+}
+
+
+.title h1{
+    font-size: 71px;
+    font-weight: normal;
+    font-family: titlebook;
+    line-height: 0.9;
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+.title p{
+    font-size: 40px;
+    display: block;
+    font-family: titlebook;
+    line-height: 1;
+    margin-top: 25px;
+    max-width: 500px;
+}
+
+@media (max-width: 750px) {
+    .title h1{
+        font-size: 54px;
+        margin-top: 20px;
+        color: #FB2D00;
+    }
+    .title p{
+        font-size: 24px;
+        margin-top: 10px;
     }
 }
 
 .bajada{
-    padding: 40px 0px;
+    padding: 60px 0px;
     margin: 0 auto;
-    max-width: 700px;
+    max-width: 1100px;
     text-align: center;
     text-align: left;
 }
 
 .bajada p{
-    font-size: 24px;
+    font-size: 26px;
     line-height: 1.44;
+    text-align: center;
 }
 
 
@@ -107,6 +166,8 @@ p{
     .bajada p{
         font-size: 20px;
         line-height: 1.2;
+        text-align: left;
+        margin-top: 0px;
     }
 }
 
@@ -120,14 +181,16 @@ p.autor span{
 }
 
 .podcasts{
-    padding: 30px 0px;
-    border-bottom: 1px solid #555555;
-    border-top: 1px solid #555555;
+    padding: 0px 0px;
+    max-width: 900px;
+    margin: 60px auto;
 }
 
 .podcasts p{
     font-size: 14px;
     color: #888888;
+    max-width: 700px;
+    margin: 10px auto;
 }
 
 .reportaje{
