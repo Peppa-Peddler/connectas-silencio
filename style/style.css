@@ -56,7 +56,7 @@ a.logo img{
 
 p{
     font-size: 19px;
-    line-height: 1.45;
+    line-height: 1.65;
 }
 
 @media (max-width: 750px) {
@@ -196,7 +196,7 @@ p.autor span{
 .reportaje{
 }
 
-.reportaje img{
+.reportaje img.big-img{
     width: 100%;
     margin-top: 50px;
     display: block;
@@ -227,6 +227,9 @@ p.autor span{
     }
 }
 
+.embed{
+    margin: 50px 0px;
+}
 
 .reportaje h2 span{
     display: block;
@@ -244,7 +247,12 @@ p.autor span{
 .parrafo b{
     font-weight: 400;
     color: #e76c33;
-    border-bottom: 1px solid #e76c33;
+}
+
+.parrafo a{
+    color: #e76c33;
+    text-decoration: none;
+    border-bottom: 1px solid #666666;
 }
 
 .quote{
@@ -282,11 +290,11 @@ p.autor span{
 }
 
 .parrafo span.capitalize{
-    font-size: 94px;
+    font-size: 102px;
     font-family: titlebook;
     float: left;
-    margin-top: -33px;
-    margin-bottom: -30px;
+    margin-top: -43px;
+    margin-bottom: -40px;
     margin-right: 10px;
 }
 
@@ -308,4 +316,45 @@ p.autor span{
     padding: 50px 0px;
     margin-top: 100px;
     background: #1b1b1a;
+}
+
+.carslide{
+    margin: 50px 0px;
+}
+
+.splide__slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.car-cont{
+    position: relative;
+}
+
+.car-cont p{
+    position: absolute;
+    z-index: 100;
+    padding: 20px 50px;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+}
+
+.splide__slide {
+    opacity: 0.3;
+}
+  
+.splide__slide.is-active {
+    opacity: 1;
+}
+
+.carousel-thumb{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.carousel-thumb .splide__list {
+    justify-content: center;
+    align-items:center;
 }
