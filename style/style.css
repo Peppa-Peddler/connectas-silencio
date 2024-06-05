@@ -196,7 +196,7 @@ p.autor span{
 .reportaje{
 }
 
-.reportaje img.big-img{
+.reportaje img.big-img, .reportaje .video{
     width: 100%;
     margin-top: 50px;
     display: block;
@@ -204,17 +204,37 @@ p.autor span{
 }
 
 .reportaje img.medium-img{
-    max-width: 650px;
+    max-width: 700px;
     margin: 0 auto;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    display: block
 }
+
+.reportaje img.small-img{
+    max-width: 550px;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 20px; 
+    display: block;
+}
+
+.fotodesc{
+    max-width: 700px;
+    margin: 0 auto;
+    font-size: 13px;
+    margin-top: 7px;
+    color: #aaaaaa;
+    text-align: center;
+    margin-bottom: 65px;
+}
+
 
 .reportaje h2{
     font-size: 38px;
     font-weight: normal;
     margin: 60px auto;
-    margin-top: 50px;
+    margin-top: 70px;
     max-width: 700px;
     line-height: 1.0;
     font-family: titlebook;
@@ -279,16 +299,6 @@ p.autor span{
     }
 }
 
-.fotodesc{
-    max-width: 700px;
-    margin: 0 auto;
-    font-size: 13px;
-    margin-top: 7px;
-    color: #aaaaaa;
-    text-align: center;
-    margin-bottom: 55px;
-}
-
 .parrafo span.capitalize{
     font-size: 102px;
     font-family: titlebook;
@@ -319,7 +329,7 @@ p.autor span{
 }
 
 .carslide{
-    margin: 50px 0px;
+    margin: 60px 0px;
 }
 
 .splide__slide img {
@@ -335,10 +345,11 @@ p.autor span{
 .car-cont p{
     position: absolute;
     z-index: 100;
-    padding: 20px 50px;
+    padding: 10px 40px;
     width: 100%;
     bottom: 0;
     left: 0;
+    text-align: center;
 }
 
 .splide__slide {
