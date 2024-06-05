@@ -205,6 +205,7 @@ p.autor span{
 
 .reportaje img.medium-img{
     max-width: 700px;
+    width: 100%;
     margin: 0 auto;
     margin-top: 50px;
     margin-bottom: 10px;
@@ -368,4 +369,18 @@ p.autor span{
 .carousel-thumb .splide__list {
     justify-content: center;
     align-items:center;
+}
+
+.pie{
+    font-size: 23px;
+    border-bottom: 1px solid #444444;
+    margin-bottom: 40px;
+    padding: 60px 0px;
+    padding-bottom: 100px;
+}
+
+.pie a{
+    color: #e76c33;
+    text-decoration: none;
+    border-bottom: 1px solid #666666;
 }
