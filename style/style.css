@@ -181,16 +181,36 @@ p.autor span{
 }
 
 .podcasts{
-    padding: 0px 0px;
-    max-width: 900px;
     margin: 60px auto;
+    background: #1b1b1a;
+    padding: 70px 5px;
+    position: relative;
 }
 
-.podcasts p{
-    font-size: 14px;
-    color: #888888;
+.podbox{
     max-width: 700px;
-    margin: 10px auto;
+}
+
+.podtext{
+    width: 270px;
+    font-weight: normal;
+    font-family: titlebook;
+    font-size: 30px;
+    position: absolute;
+    left: 730px;
+    top: 100px;
+    color: #e76c33;
+    letter-spacing: 1px;
+}
+
+.podtext span{
+    color: #ffffff;
+}
+
+.podcont{
+    max-width: 1000px;
+    margin: 0 auto;
+    position: relative;
 }
 
 .reportaje{
