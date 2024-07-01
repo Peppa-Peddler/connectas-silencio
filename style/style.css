@@ -259,6 +259,7 @@ p.autor span{
     max-width: 700px;
     line-height: 1.0;
     font-family: titlebook;
+    letter-spacing: 1.1px;
 }
 
 @media (max-width: 750px) {
