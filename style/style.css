@@ -182,9 +182,14 @@ p.autor span{
 
 .podcasts{
     margin: 60px auto;
-    background: #1b1b1a;
-    padding: 50px 5px;
+    background: url("../images/ilustracion2.png") center center;
+    background-size: cover;
     position: relative;
+}
+
+.podcasts .filter{
+    padding: 50px 5px;
+    background: rgba(40, 39, 39, 0.7);
 }
 
 .podbox{
@@ -199,7 +204,7 @@ p.autor span{
     position: absolute;
     left: 830px;
     top: 100px;
-    color: #777777;
+    color: #e76c33;
     letter-spacing: 1px;
 }
 
